@@ -1,16 +1,17 @@
-### Hi there 👋
+```rust
+struct Me{
+    name: String,
+    code: String,
+    twitter: String,
+    blog: String
+}
 
-<!--
-**imjdl/imjdl** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+fn main() {
+    let me = Me{
+        name: "imjdl".to_string(),
+        code: "Python、Rust & Java".to_string(),
+        twitter: "0x534F4150".to_string(),
+        blog: "https://rustlang.rs".to_string()
+    };
+}
+```
